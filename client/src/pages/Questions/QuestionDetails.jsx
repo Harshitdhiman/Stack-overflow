@@ -74,7 +74,7 @@ const QuestionDetails = () => {
     const dispatch = useDispatch()
     const User = useSelector((state) => (state.currentUserReducer))
     const location = useLocation()
-    const url = 'http://localhost:3000'
+    const url = 'http://20.219.129.212:5000/'
 
 
     const handlePostAns = (e, answerLength) =>{
