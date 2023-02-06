@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API = axios.create({ baseURL: 'http://20.219.129.212:5000/'})
+const API = axios.create({ baseURL: 'https://api.regexnatives.in/stackoverflow/'})
 
 API.interceptors.request.use((req) => {
     if(localStorage.getItem('Profile')){
